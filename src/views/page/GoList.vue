@@ -76,7 +76,7 @@ import {
   checkExtends,
 } from "@utils/AcrouUtil";
 import { mapState, mapActions } from "vuex";
-import BreadCrumb from "../common/BreadCrumb";
+
 import ListView from "./components/list";
 import GridView from "./components/grid";
 import Markdown from "../common/Markdown";
@@ -84,7 +84,7 @@ import InfiniteLoading from "vue-infinite-loading";
 export default {
   name: "GoList",
   components: {
-    BreadCrumb,
+    
     ListView,
     GridView,
     Headmd: Markdown,
