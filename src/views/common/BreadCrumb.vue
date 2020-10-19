@@ -6,17 +6,7 @@
     >
       <div class="level-left">
         <div class="level-item">
-          <ul>
-            
-            <li
-              v-for="(item, index) in navs"
-              :class="index + 1 == navs.length ? 'is-active' : ''"
-              v-bind:key="index"
-            >
-              
-              <a v-else @click="go(item.path)">{{ item.title }}</a>
-            </li>
-          </ul>
+          
         </div>
       </div>
       <div class="level-right">
