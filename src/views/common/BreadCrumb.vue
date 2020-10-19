@@ -13,9 +13,7 @@
               :class="index + 1 == navs.length ? 'is-active' : ''"
               v-bind:key="index"
             >
-              <a v-if="index + 1 == navs.length" aria-current="page" href="#">{{
-                item.title
-              }}</a>
+              
               <a v-else @click="go(item.path)">{{ item.title }}</a>
             </li>
           </ul>
